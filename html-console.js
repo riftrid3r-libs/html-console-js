@@ -13,7 +13,7 @@ doc: css: .cline{}
      html: <div id="clog"></div>
 */
 
-var consoleLine = "<p class=\"console-line\"></p>";
+var consoleLine = "<p class=\"cline\"></p>";
 
 console = {
   log: function(text) {
