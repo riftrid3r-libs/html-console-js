@@ -8,6 +8,7 @@ Author: Drew Billings
 Description: console output in jsfiddle.
 Copyright: Drew Billings
 use: You must include this header.
+depends: jquery
 doc: css: .cline{}
      html: <div id="clog"></div>
 */
