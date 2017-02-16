@@ -16,7 +16,7 @@ $( document ).ready(function(){
   var resultPage = "<div class=\"wrapper\"><div class=\"console-tabs\"><span id=\"consoleButton\" class=\"tab selected\">Console</span><span id=\"hButton\" class=\"tab\">Render</span></div><div id=\"clog\" class=\"console-page\"></div></div>";
   $('body').prepend( resultPage )
 
-  var consoleLine = "<p class=\"cLine\"> </p>";
+  var consoleLine = "<p class=\"cline\"> </p>";
 
   console = {
     log: function(text) {
