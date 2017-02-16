@@ -38,8 +38,7 @@ function htmlConsole(){
     }
   };
 
-  
-  console.log("HTMLConsole.js by riftrid3r");	
+  console.log("<a target=\"new\" href=\"https://github.com/riftrid3r\">riftrid3r</a>'s HTMLConsole.js");	
 };
 
 
