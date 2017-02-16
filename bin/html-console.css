@@ -1,0 +1,62 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+}
+.wrapper-shrink {
+  height: 30px;
+}
+.title {
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.cline {
+  font-family: monospace;
+  margin: 1em;
+}
+
+.console-tabs {
+  margin-top: 12px;
+  margin-left: 8px;
+}
+
+.page {
+  background: #fff;
+  height: 100%;
+  margin-top: 12px;
+}
+
+.display-none {
+  display: none;
+}
+
+.display-block {
+  display: block;
+}
+
+.tab {
+  padding: 4px;
+  background: #fff;
+  border: 1px solid rgb(200, 210, 215);
+}
+
+.selected {
+  border: 1px solid rgb(28, 144, 243);
+}
+
+.console-page {
+  background: #000;
+  color: #00ff00;
+  height: 100%;
+  padding: 8px;
+  margin-top: 12px;
+}
+
