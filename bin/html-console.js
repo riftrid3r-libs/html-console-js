@@ -20,7 +20,7 @@ $( document ).ready(function(){
 
   console = {
     log: function(text) {
-      $("#clog").append($(cLine).html(text));
+      $("#clog").append($(consoleLine).html("J$ " + text));
     }
   };
 
