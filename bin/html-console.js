@@ -12,7 +12,6 @@ doc: css: .cline{}
      html: <div id="clog"></div>
      
 */
-$( document ).load(function(){
   var resultPage = "<div class=\"wrapper\"><div class=\"console-tabs\"><span id=\"consoleButton\" class=\"tab selected\">Console</span><span id=\"hButton\" class=\"tab\">Render</span></div><div id=\"clog\" class=\"console-page\"></div></div>";
   $('body').prepend( resultPage )
 
@@ -28,16 +27,18 @@ $( document ).load(function(){
   $("#hButton").click(function() {
     $("#clog").addClass("display-none").removeClass("display-block");
     $("#consoleButton").removeClass("selected");
+    $("#hButton").addClass("selected");
     $(".wrapper").addClass("wrapper-shrink").removeClass("wrapper")
   });
 
-  console.log("HTMLConsole.js by Drew Billings");
-});
-
 var consoleLine = "<p class=\"cline\"> </p>";
 
-  console = {
-    log: function(text) {
-      $("#clog").append($(consoleLine).html("J$ " + text));
-    }
-  };
+console = {
+	log: function(text) {
+  	$("#clog").append($(consoleLine).html("J$ " + text));
+  }
+};
+  
+  console.log("HTMLConsole.js by Drew Billings");
+  console.log("some other stuff");
+
