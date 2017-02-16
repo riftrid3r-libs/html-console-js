@@ -12,7 +12,7 @@ doc: css: .cline{}
      html: <div id="clog"></div>
      
 */
-$( document ).ready(function(){
+function htmlConsole(){
   var resultPage = "<div class=\"wrapper\"><div class=\"console-tabs\"><span id=\"consoleButton\" class=\"tab selected\">Console</span><span id=\"hButton\" class=\"tab\">Render</span></div><div id=\"clog\" class=\"console-page\"></div></div>";
   $('body').prepend( resultPage )
 
@@ -39,8 +39,7 @@ $( document ).ready(function(){
   };
 
   
-  console.log("HTMLConsole.js by Drew Billings");
-  console.log("some other stuff");	
+  console.log("HTMLConsole.js by riftrid3r");	
 });
 
 
