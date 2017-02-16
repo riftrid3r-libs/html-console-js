@@ -17,6 +17,7 @@ $( document ).load(function(){
   $('body').prepend( resultPage )
 });
 
+$( document ).ready(function(){
 var consoleLine = "<p class=\"cline\"> </p>";
 
 console = {
@@ -40,3 +41,4 @@ $("#hButton").click(function() {
 });
 
 console.log("HTMLConsole.js by Drew Billings");
+});
