@@ -12,7 +12,7 @@ doc: css: .cline{}
      html: <div id="clog"></div>
      
 */
-$( document ).ready(function(){
+$( document ).load(function(){
   var resultPage = "<div class=\"wrapper\"><div class=\"console-tabs\"><span id=\"consoleButton\" class=\"tab selected\">Console</span><span id=\"hButton\" class=\"tab\">Render</span></div><div id=\"clog\" class=\"console-page\"></div></div>";
   $('body').prepend( resultPage )
 
