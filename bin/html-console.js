@@ -40,7 +40,7 @@ function htmlConsole(){
 
   
   console.log("HTMLConsole.js by riftrid3r");	
-});
+};
 
 
 
