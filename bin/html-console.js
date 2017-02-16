@@ -31,19 +31,17 @@ $( document ).ready(function(){
     $("#hButton").addClass("selected");
     $(".wrapper").addClass("wrapper-shrink").removeClass("wrapper")
   });
-  captureConsoleLog();	
-});
-
-function captureConsoleLog(){
   consoleLine = "<p class=\"cline\"> </p>";
   console = {
     log: function(text) {
       $("#clog").append($(consoleLine).html("J$ " + text));
     }
   };
-};
 
   
   console.log("HTMLConsole.js by Drew Billings");
-  console.log("some other stuff");
+  console.log("some other stuff");	
+});
+
+
 
