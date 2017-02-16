@@ -4,7 +4,7 @@
 HTML|    |  | |  | |        |
 \______| |_______| |___|\___|
 S       O         L         E.js
-Author: Drew Billings
+Author: riftrid3r
 Description: console output in jsfiddle.
 Copyright: Drew Billings
 use: You must include this header. 
