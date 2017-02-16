@@ -29,7 +29,7 @@ function htmlConsole(){
     $("#clog").addClass("display-none").removeClass("display-block");
     $("#consoleButton").removeClass("selected");
     $("#hButton").addClass("selected");
-    $(".wrapper").addClass("wrapper-shrink").removeClass("wrapper")
+    $(".wrapper").addClass("wrapper-shrink").removeClass("wrapper");
   });
   consoleLine = "<p class=\"cline\"> </p>";
   console = {
